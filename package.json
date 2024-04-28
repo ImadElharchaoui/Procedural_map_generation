@@ -1,0 +1,17 @@
+{
+  "name": "procedural-map-generation-algo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "d3": "^7.9.0"
+  }
+}

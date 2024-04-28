@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dynamic Grid Selection</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script> <!-- D3.js library -->
+    <link rel="stylesheet" type="text/css" href="styles.css"> <!-- CSS for styling -->
+</head>
+<body>
+    <svg id="grid" width="100%" height="90vh"></svg> <!-- SVG element for the grid -->
+
+    <!-- Dropdown to select algorithm -->
+    <div>
+        <label for="algorithm">Choose Algorithm:</label>
+        <select name="algorithm" id="algorithm">
+            <option value="Cellular_Automata">Cellular Automata</option>
+            <option value="Perlin_noise">Perlin Noise</option>
+            <option value="none">Undefined</option>
+        </select>
+        <button id="regenerate">Regenerate</button>
+    </div>
+
+    <!-- Reference the external JavaScript file -->
+    <script type="module" src="main.js"></script>
+</body>
+</html>
